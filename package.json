@@ -1,0 +1,42 @@
+{
+  "name": "you-visit-demo-app",
+  "version": "1.0.0",
+  "description": "code challenge by you visit",
+  "main": "server.js",
+  "scripts": {
+    "start": " pm2 start server.js --watch --interpreter babel-node",
+    "stop": "pm2 stop 0 --watch",
+    "webpack": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil1210/you-visit-demo-app.git"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "Nikhil Malhotra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikhil1210/you-visit-demo-app/issues"
+  },
+  "homepage": "https://github.com/Nikhil1210/you-visit-demo-app#readme",
+  "dependencies": {
+    "@babel/node": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "pm2": "^3.5.1"
+  }
+}
